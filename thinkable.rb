@@ -1,5 +1,5 @@
 module Thinkable
-  def think(input)
-      puts "私は"+input+"について考えています。"
+  def think
+      puts "私は"+self.hobby+"について考えています。"
   end
 end
